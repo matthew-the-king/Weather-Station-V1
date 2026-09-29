@@ -1,5 +1,5 @@
 # Weather-Station-V1
-The Weather Station V1 is a Solar- and Battery-powered Weather Station that measures humidity, pressure, temperature, and air quality, and sends all data over Wi-Fi for a client to receive.
+The Weather Station V1 is a Solar- and Battery-powered Weather Station that measures humidity, pressure, temperature, and air quality, and sends all data over Wi-Fi for a client to receive or records it to an SD card.
 <img width="1040" height="592" alt="image" src="https://github.com/user-attachments/assets/2a213a2a-b792-4a79-85fb-dfae104ab104" />
 ## |FEATURES IN DEPTH|<br>
 The Weather Station V1 uses multiple sensors to collect data; here is the list:<br>
