@@ -1,7 +1,7 @@
-# Weather-Station-V1
+## Weather-Station-V1
 The Weather Station V1 is a Solar- and Battery-powered Weather Station that measures humidity, pressure, temperature, and air quality, and sends all data over Wi-Fi for a client to receive.
 <img width="1040" height="592" alt="image" src="https://github.com/user-attachments/assets/2a213a2a-b792-4a79-85fb-dfae104ab104" />
-|FEATURES IN DEPTH|##<br>
+#|FEATURES IN DEPTH|<br>
 The Weather Station V1 uses multiple sensors to collect data; here is the list:<br>
 1.STS40-AD1B-R3(Temperature Sensor)<br>
 2.BMP581(Pressure Sensor)<br>
@@ -21,11 +21,11 @@ board that allow for ESP32 UART programming and STM32 serial wire debug and prog
 <img width="234" height="152" alt="image" src="https://github.com/user-attachments/assets/7517952c-5eb3-4fa8-90c6-91cde3e78ec5" />
 <img width="172" height="77" alt="image" src="https://github.com/user-attachments/assets/ff867981-08c1-4b19-8030-401d74fc0352" />
 <img width="187" height="107" alt="image" src="https://github.com/user-attachments/assets/8a38d112-d87d-40e5-bf3b-fb82a8bf159f" /><br>
-|PRODUCTION|##<br>
+#|PRODUCTION|<br>
 To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.).  The Bill of Materials is listed here(https://docs.google.com/spreadsheets/d/18tRwPWfDHP627m5xswZKQer6xHzLyA3w4jbUHwrpr4k/edit?gid=0#gid=0).
 I would greatly recommend using a PCB stencil to make soldering components easier, as some of the components are quite small. Remember, in order for the battery functionality to work, JP1 and JP4 must be bridged.<br>
 <br>
-|Purpose Of Project |##<br>
+#|Purpose Of Project |<br>
 The purpose of the Weather Station V1 was to enhance my understanding of RF applications and battery- and solar-powered devices. Throughout making this project, I understood RF design better and overall PCB design.
 I hope this knowledge will allow me to make better, more reliable, and cooler projects in the future. 
 
