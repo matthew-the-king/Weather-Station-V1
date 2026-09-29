@@ -7,9 +7,9 @@ The Weather Station V1 uses multiple sensors to collect data; here is the list:<
 2.BMP581(Pressure Sensor)<br>
 3.ENS160-BGLT(Air qaulity Sensor)<br>
 4.SAM-M10Q-00B(GPS IC)<br>
-To view the data the Weather Station V1 collects, the PCB has an SD card slot that records data over long periods and an ESP32-C3 that can send data over WiFi.
+To view the data the Weather Station V1 collects, the PCB has an SD card slot that records data over long periods and an ESP32-C3 that can send data over WiFi.<br>
 <img width="283" height="254" alt="image" src="https://github.com/user-attachments/assets/eb9d54af-3096-42ad-96b8-0720b0d4d727" />
-<img width="209" height="257" alt="image" src="https://github.com/user-attachments/assets/78601759-6eac-4327-90fd-bdbc29bcbc01" />
+<img width="209" height="257" alt="image" src="https://github.com/user-attachments/assets/78601759-6eac-4327-90fd-bdbc29bcbc01" /><br>
 The Weather Station V1 can be powered with a solar panel. To hook up the solar panel, connect the power wires in the correct polarity to the blue screw-in terminal.
 <img width="429" height="325" alt="image" src="https://github.com/user-attachments/assets/50c366fd-2385-418f-9957-bec3741ddaac" />
 The Weather Station V1 features an LTC4162, which is a LiFePO4 battery step-down charger with a Power path. To set up the cell count properly, JP1 and JP4 must be bridged. 
