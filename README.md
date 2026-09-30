@@ -22,7 +22,76 @@ board that allow for ESP32 UART programming and STM32 serial wire debug and prog
 <img width="172" height="77" alt="image" src="https://github.com/user-attachments/assets/ff867981-08c1-4b19-8030-401d74fc0352" />
 <img width="187" height="107" alt="image" src="https://github.com/user-attachments/assets/8a38d112-d87d-40e5-bf3b-fb82a8bf159f" /><br>
 ## |PRODUCTION|<br>
-To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.).  The Bill of Materials is listed here(https://docs.google.com/spreadsheets/d/18tRwPWfDHP627m5xswZKQer6xHzLyA3w4jbUHwrpr4k/edit?gid=0#gid=0).
+To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.).  The Bill of Materials is listed here:<br>
+| Designator | Footprint | Qty | Value / Part | Part Link |
+|---|---|---:|---|---|
+| BT5 | BAT_BK-18650-PC8 | 1 | BK-18650-PC8 | |
+| C1 | 0603 | 1 | 330nF | |
+| C10, C27, C3, C38, C39, C4, C40, C41, C45, C46, C5, C50, C51, C52, C53, C54, C6, C62, C63, C64, C9 | 0402 | 21 | 0.1uF | |
+| C11, C37, C44, C57, C65 | 0402 | 5 | 10uF | |
+| C12, C13, C16, C42, C43, C61, C66 | 0402 | 7 | 1uF | |
+| C14 | 0402 | 1 | 22nF | |
+| C15, C18, C2, C24, C26, C7 | 1210 | 6 | 10uF | |
+| C17, C22, C23, C29, C60, C67, C68, C69 | 0603 | 8 | 0.1uF | |
+| C25, C28 | CAP_EEH-ZA1V151P_PAN | 2 | 150uF | |
+| C34, C35, C36 | 0805 | 3 | 220nF | |
+| C47, C48 | 0201 | 2 | C | |
+| C49 | 0603 | 1 | 4.7uF | |
+| C55, C8 | 0603 | 2 | 22uF | |
+| C56 | WCAP-PSHP_8X8.7_DXL_ | 1 | 470uF | |
+| C58 | 0402 | 1 | 470pF | |
+| C59 | 0402 | 1 | 100pF | |
+| D1, D5, D6 | D_SOD-123F | 3 | 40V | |
+| D2 | D_SMA | 1 | D | |
+| D3 | D_SOD-123 | 1 | Zener 16V | |
+| D4 | D_SMA | 1 | 100V | |
+| ESP32_USB1, STM32_USB1 | SAMESKY_UJ20-C-H-G-SMT-P16-TR | 2 | UJ20-C-H-G-SMT-1-P16-TR | |
+| FB1, FB2 | 0603 | 2 | 120R | |
+| J1 | GCT_MEM2075-00-140-01-A | 1 | MEM2075-00-140-01-A | |
+| J2 | TE_CONREVSMA002 | 1 | CONREVSMA002 | |
+| J3 | PinHeader_1x05_P2.54mm_Vertical | 1 | Conn_01x05_Pin | |
+| J4 | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_01x04_Pin | |
+| J5 | OST_OSTTC020162 | 1 | Solar Panel | |
+| JP1, JP2, JP3, JP4, JP5, JP6, JP7 | SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm | 7 | Jumper_2_Open | |
+| JP8, JP9 | PinSocket_1x02_P2.54mm_Vertical | 2 | Jumper_2_Open | |
+| L1 | IND_PA4342.402NLT | 1 | 4uH | |
+| L2 | 0201 | 1 | L | |
+| L3 | 1008 | 1 | 1.5uH | |
+| Q10, Q9 | NPNBEC_SOT-23_OSI | 2 | BSR14 | |
+| Q11, Q14 | WDFN8_511DR_OSI-L | 2 | FDMC8327L | |
+| Q3, Q4, Q5, Q6 | TDSON-8-1 | 4 | CSD18534Q5A | |
+| R1 | 1206 | 1 | 16mΩ | |
+| R10, R11 | 2512 | 2 | 10MΩ | |
+| R12, R13, R8, R9 | 0603 | 4 | 330Ω | |
+| R14 | 0603 | 1 | 63.4k | |
+| R15, R16 | 0402 | 2 | 10k | |
+| R2, R3, R39, R40 | 0402 | 4 | 4.7kΩ | |
+| R20, R25 | 0603 | 2 | 300Ω | |
+| R21, R22 | 2512 | 2 | 80.6Ω | |
+| R23, R24, R26, R47, R48, R51, R52, R7 | 2010 | 8 | 100Ω | |
+| R27, R28, R29, R30 | 0402 | 4 | 5.1kΩ | |
+| R31, R32, R33, R34, R37, R38, R43, R45, R49 | 0402 | 9 | 10kΩ | |
+| R35, R36 | 0402 | 2 | 22Ω | |
+| R41 | 0402 | 1 | 100k | |
+| R42 | 0402 | 1 | 31.6kΩ | |
+| R44, R53 | 0402 | 2 | 100kΩ | |
+| R46 | MSRSF3920P1L00D2P0 | 1 | 1mΩ | |
+| R50 | 0805 | 1 | 32mΩ | |
+| S1 | SW_SKRPABE010 | 1 | SKRPABE010 | |
+| TH1 | PinHeader_1x02_P1.00mm_Vertical | 1 | 103AT2 | |
+| U1 | UFQFPN-32_STM | 1 | STM32U385KGU6 | |
+| U10 | VQFN20_RGR_TEX | 1 | BQ76907RGRR | |
+| U11 | SOT-23-5 | 1 | MIC5504-1.8YM5 | |
+| U12, U13 | PSON50P145X100X60-6N | 2 | TPD4S012DRYR | |
+| U14 | IC_MCP16362T-E_NMX | 1 | MCP16362T-E_NMX | |
+| U2 | QFN10_BMP581_BOS | 1 | BMP581 | |
+| U3 | STS4X | 1 | STS4X | |
+| U4 | XDCR_ENS210-LQFM | 1 | ENS210-LQFM | |
+| U5 | XDCR_ENS160-BGLT | 1 | ENS160-BGLT | |
+| U6 | QFN50P500X500X90-33N | 1 | LTC4162IUFD-FAD_PBF | |
+| U7 | XCVR_SAM-M10Q-00B | 1 | SAM-M10Q-00B | |
+| U8 | QFN50P500X500X90-33N | 1 | ESP32-C3FH4 | |
+| Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ | |
 I would greatly recommend using a PCB stencil to make soldering components easier, as some of the components are quite small. Remember, in order for the battery functionality to work, JP1 and JP4 must be bridged.<br>
 <br>
 ## |Purpose Of Project |<br>
