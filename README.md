@@ -65,16 +65,16 @@ To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.). 
 | R12, R13, R8, R9 | 0603 | 4 | 330Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162) |
 | R14 | 0603 | 1 | 63.4k |[Link](https://www.digikey.com/en/products/detail/yageo/RT0603BRD0763K4L/1072610) |
 | R15, R16 | 0402 | 2 | 10k |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A) |
-| R2, R3, R39, R40 | 0402 | 4 | 4.7kΩ |[Link]() |
-| R20, R25 | 0603 | 2 | 300Ω |[Link]() |
-| R21, R22 | 2512 | 2 | 80.6Ω |[Link]() |
-| R23, R24, R26, R47, R48, R51, R52, R7 | 2010 | 8 | 100Ω |[Link]() |
-| R27, R28, R29, R30 | 0402 | 4 | 5.1kΩ |[Link]() |
-| R31, R32, R33, R34, R37, R38, R43, R45, R49 | 0402 | 9 | 10kΩ |[Link]() |
-| R35, R36 | 0402 | 2 | 22Ω |[Link]() |
-| R41 | 0402 | 1 | 100k |[Link]() |
-| R42 | 0402 | 1 | 31.6kΩ |[Link]() |
-| R44, R53 | 0402 | 2 | 100kΩ |[Link]() |
+| R2, R3, R39, R40 | 0402 | 4 | 4.7kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-074K7L/726477) |
+| R20, R25 | 0603 | 2 | 300Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07300RL/724356) |
+| R21, R22 | 2512 | 2 | 80.6Ω |[Link](https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H3ATTE80R6F/10423948) |
+| R23, R24, R26, R47, R48, R51, R52, R7 | 2010 | 8 | 100Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RT2010FKE07100RL/5945596) |
+| R27, R28, R29, R30 | 0402 | 4 | 5.1kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K1L/726624?s=N4IgTCBcDaIEoGEAMAWJYBicC0SDsArANICMAMiALoC%2BQA) |
+| R31, R32, R33, R34, R37, R38, R43, R45, R49 | 0402 | 9 | 10kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A) |
+| R35, R36 | 0402 | 2 | 22Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-0722RL/726562) |
+| R41 | 0402 | 1 | 100k |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526) |
+| R42 | 0402 | 1 | 31.6kΩ |[Link](https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB3162X/2026187) |
+| R44, R53 | 0402 | 2 | 100kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526) |
 | R46 | MSRSF3920P1L00D2P0 | 1 | 1mΩ |[Link]() |
 | R50 | 0805 | 1 | 32mΩ |[Link]() |
 | S1 | SW_SKRPABE010 | 1 | SKRPABE010 |[Link]() |
