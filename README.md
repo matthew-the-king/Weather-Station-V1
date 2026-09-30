@@ -57,14 +57,14 @@ To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.). 
 | L1 | IND_PA4342.402NLT | 1 | 4uH |[Link](https://www.digikey.com/en/products/detail/pulse-electronics/PA4342-402NLT/5641799) |
 | L2 | 0201 | 1 | L |Will Post link when Done with testing|
 | L3 | 1008 | 1 | 1.5uH |[Link](https://www.digikey.com/en/products/detail/murata-electronics/DFE252012P-1R5M-P2/5247259) |
-| Q10, Q9 | NPNBEC_SOT-23_OSI | 2 | BSR14 |[Link]() |
-| Q11, Q14 | WDFN8_511DR_OSI-L | 2 | FDMC8327L |[Link]() |
-| Q3, Q4, Q5, Q6 | TDSON-8-1 | 4 | CSD18534Q5A |[Link]() |
-| R1 | 1206 | 1 | 16mΩ |[Link]() |
-| R10, R11 | 2512 | 2 | 10MΩ |[Link]() |
-| R12, R13, R8, R9 | 0603 | 4 | 330Ω |[Link]() |
-| R14 | 0603 | 1 | 63.4k |[Link]() |
-| R15, R16 | 0402 | 2 | 10k |[Link]() |
+| Q10, Q9 | NPNBEC_SOT-23_OSI | 2 | BSR14 |[Link](https://www.digikey.com/en/products/detail/onsemi/BSR14/965251) |
+| Q11, Q14 | WDFN8_511DR_OSI-L | 2 | FDMC8327L |[Link](https://www.digikey.com/en/products/detail/onsemi/FDMC8327L/4314821?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart) |
+| Q3, Q4, Q5, Q6 | TDSON-8-1 | 4 | CSD18534Q5A |[Link](https://www.digikey.com/en/products/detail/texas-instruments/CSD18534Q5A/3830016) |
+| R1 | 1206 | 1 | 16mΩ |[Link](https://www.digikey.com/en/products/detail/littelfuse-inc/L4CL1206LR016DNR/18795436) |
+| R10, R11 | 2512 | 2 | 10MΩ |[Link](https://www.digikey.com/en/products/detail/bourns-inc/CHV2512-JW-106ELF/5175992) |
+| R12, R13, R8, R9 | 0603 | 4 | 330Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162) |
+| R14 | 0603 | 1 | 63.4k |[Link](https://www.digikey.com/en/products/detail/yageo/RT0603BRD0763K4L/1072610) |
+| R15, R16 | 0402 | 2 | 10k |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A) |
 | R2, R3, R39, R40 | 0402 | 4 | 4.7kΩ |[Link]() |
 | R20, R25 | 0603 | 2 | 300Ω |[Link]() |
 | R21, R22 | 2512 | 2 | 80.6Ω |[Link]() |
