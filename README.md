@@ -48,15 +48,15 @@ To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.). 
 | ESP32_USB1, STM32_USB1 | SAMESKY_UJ20-C-H-G-SMT-P16-TR | 2 | UJ20-C-H-G-SMT-1-P16-TR |[Link](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-P16-TR/24818595) |
 | FB1, FB2 | 0603 | 2 | 120R |[Link](https://www.digikey.com/en/products/detail/pulse-electronics/PE-0603PFB121ST/5050544) |
 | J1 | GCT_MEM2075-00-140-01-A | 1 | MEM2075-00-140-01-A |[Link](https://www.digikey.com/en/products/detail/gct/MEM2075-00-140-01-A/9859614) |
-| J2 | TE_CONREVSMA002 | 1 | CONREVSMA002 |[Link]() |
-| J3 | PinHeader_1x05_P2.54mm_Vertical | 1 | Conn_01x05_Pin |[Link]() |
-| J4 | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_01x04_Pin |[Link]() |
-| J5 | OST_OSTTC020162 | 1 | Solar Panel |[Link]() |
-| JP1, JP2, JP3, JP4, JP5, JP6, JP7 | SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm | 7 | Jumper_2_Open |[Link]() |
-| JP8, JP9 | PinSocket_1x02_P2.54mm_Vertical | 2 | Jumper_2_Open |[Link]() |
-| L1 | IND_PA4342.402NLT | 1 | 4uH |[Link]() |
-| L2 | 0201 | 1 | L |[Link]() |
-| L3 | 1008 | 1 | 1.5uH |[Link]() |
+| J2 | TE_CONREVSMA002 | 1 | CONREVSMA002 |[Link](https://www.digikey.com/en/products/detail/te-connectivity-linx/CONREVSMA002/340145) |
+| J3 | PinHeader_1x05_P2.54mm_Vertical | 1 | Conn_01x05_Pin |2.54mm Male Header Pins|
+| J4 | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_01x04_Pin |2.54mm Male Header Pins|
+| J5 | OST_OSTTC020162 | 1 | Solar Panel |[Link](https://www.amazon.com/dp/B01IFJ73X4?lv=shuf&rnid=2661611011&crid=3QHAHQSNMHFSL&keywords=solar%2Bpanels&sprefix=solar%2Bpanels%2Caps%2C245&th=1&dib_tag=se&dib=eyJ2IjoiMSJ9.NCFwgk3sAcXWyB454Pk5SPNcQemk34eTFudncpU4z0kJxmG-NXfIaFsG7l4m57yuxXUE0gBqu5lgGJoBbALUTFjF2K6-mGWYJWMwcwzsFfhhP3rzPJ4SUP1idMQb-H-VBpm4El9aRgOr08ZAze0ncVoFDJLv6Px1nW_MmPlfGzO2yde_wccv_r7rToX8MT91kRBLzjtbjo7iDcouW79qZ-3ntSCusWl1HjOpdd0R_DA.tXCmzJyMkYVnmj8B4maCWZT6sQgtKzylotzIh5rUZ2Y&qid=1789531833&refinements=p_36%3A-3800&sr=8-4&channelId=500&ref_=sr_1_4&plpRedirect=mhFallback) |
+| JP1, JP2, JP3, JP4, JP5, JP6, JP7 | SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm | 7 | Jumper_2_Open ||
+| JP8, JP9 | PinSocket_1x02_P2.54mm_Vertical | 2 | Jumper_2_Open |2.54mm Male Header Pins|
+| L1 | IND_PA4342.402NLT | 1 | 4uH |[Link](https://www.digikey.com/en/products/detail/pulse-electronics/PA4342-402NLT/5641799) |
+| L2 | 0201 | 1 | L |Will Post link when Done with testing|
+| L3 | 1008 | 1 | 1.5uH |[Link](https://www.digikey.com/en/products/detail/murata-electronics/DFE252012P-1R5M-P2/5247259) |
 | Q10, Q9 | NPNBEC_SOT-23_OSI | 2 | BSR14 |[Link]() |
 | Q11, Q14 | WDFN8_511DR_OSI-L | 2 | FDMC8327L |[Link]() |
 | Q3, Q4, Q5, Q6 | TDSON-8-1 | 4 | CSD18534Q5A |[Link]() |
