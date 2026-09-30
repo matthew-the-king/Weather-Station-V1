@@ -91,7 +91,7 @@ To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.). 
 | U6 | QFN50P500X500X90-33N | 1 | LTC4162IUFD-FAD_PBF | |
 | U7 | XCVR_SAM-M10Q-00B | 1 | SAM-M10Q-00B | |
 | U8 | QFN50P500X500X90-33N | 1 | ESP32-C3FH4 | |
-| Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ | |
+| Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ | |<br>
 I would greatly recommend using a PCB stencil to make soldering components easier, as some of the components are quite small. Remember, in order for the battery functionality to work, JP1 and JP4 must be bridged.<br>
 <br>
 ## |Purpose Of Project |<br>
