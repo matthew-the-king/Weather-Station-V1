@@ -13,6 +13,8 @@ To view the data the Weather Station V1 collects, the PCB has an SD card slot th
 The Weather Station V1 can be powered with a solar panel. To hook up the solar panel, connect the power wires with the correct polarity to the blue screw-in terminal.<br>
 <img width="429" height="325" alt="image" src="https://github.com/user-attachments/assets/50c366fd-2385-418f-9957-bec3741ddaac" /><br>
 The Weather Station V1 features an LTC4162, which is a LiFePO4 battery step-down charger with a Power path. To set up the cell count properly, JP1 and JP4 must be bridged. 
+The PCB contains a port for the thermistor to be soldered in for battery protection.
+<img width="437" height="469" alt="image" src="https://github.com/user-attachments/assets/c4ce8645-595f-4935-8fe0-783333786ec8" />
 The current configuration of the PCB requires 4 LiFePO4 batteries(https://www.digikey.com/en/products/detail/zeus-battery-products/PCIFR18650-1500/9828824)
 The PCB has THT 18650 Battery holder footprint on the bottom side of the board, allowing for quick and easy connection of batteries to the PCB.<br>
 <img width="646" height="517" alt="image" src="https://github.com/user-attachments/assets/ac735c87-fc3e-4118-975c-a809f7d4c57f" /><br>
