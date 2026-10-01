@@ -10,7 +10,7 @@ The Weather Station V1 uses multiple sensors to collect data; here is the list:<
 To view the data the Weather Station V1 collects, the PCB has an SD card slot that records data over long periods and an ESP32-C3 that can send data over WiFi.<br>
 <img width="283" height="254" alt="image" src="https://github.com/user-attachments/assets/eb9d54af-3096-42ad-96b8-0720b0d4d727" />
 <img width="209" height="257" alt="image" src="https://github.com/user-attachments/assets/78601759-6eac-4327-90fd-bdbc29bcbc01" /><br>
-The Weather Station V1 can be powered with a solar panel. To hook up the solar panel, connect the power wires in the correct polarity to the blue screw-in terminal.<br>
+The Weather Station V1 can be powered with a solar panel. To hook up the solar panel, connect the power wires with the correct polarity to the blue screw-in terminal.<br>
 <img width="429" height="325" alt="image" src="https://github.com/user-attachments/assets/50c366fd-2385-418f-9957-bec3741ddaac" /><br>
 The Weather Station V1 features an LTC4162, which is a LiFePO4 battery step-down charger with a Power path. To set up the cell count properly, JP1 and JP4 must be bridged. 
 The current configuration of the PCB requires 4 LiFePO4 batteries(https://www.digikey.com/en/products/detail/zeus-battery-products/PCIFR18650-1500/9828824)
@@ -75,23 +75,23 @@ To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.). 
 | R41 | 0402 | 1 | 100k |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526) |
 | R42 | 0402 | 1 | 31.6kΩ |[Link](https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB3162X/2026187) |
 | R44, R53 | 0402 | 2 | 100kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526) |
-| R46 | MSRSF3920P1L00D2P0 | 1 | 1mΩ |[Link]() |
-| R50 | 0805 | 1 | 32mΩ |[Link]() |
-| S1 | SW_SKRPABE010 | 1 | SKRPABE010 |[Link]() |
-| TH1 | PinHeader_1x02_P1.00mm_Vertical | 1 | 103AT2 |[Link]() |
-| U1 | UFQFPN-32_STM | 1 | STM32U385KGU6 |[Link]() |
-| U10 | VQFN20_RGR_TEX | 1 | BQ76907RGRR |[Link]() |
-| U11 | SOT-23-5 | 1 | MIC5504-1.8YM5 | |
-| U12, U13 | PSON50P145X100X60-6N | 2 | TPD4S012DRYR |[Link]() |
-| U14 | IC_MCP16362T-E_NMX | 1 | MCP16362T-E_NMX |[Link]() |
-| U2 | QFN10_BMP581_BOS | 1 | BMP581 |[Link]() |
-| U3 | STS4X | 1 | STS4X |[Link]() |
-| U4 | XDCR_ENS210-LQFM | 1 | ENS210-LQFM |[Link]() |
-| U5 | XDCR_ENS160-BGLT | 1 | ENS160-BGLT |[Link]() |
-| U6 | QFN50P500X500X90-33N | 1 | LTC4162IUFD-FAD_PBF |[Link]() |
-| U7 | XCVR_SAM-M10Q-00B | 1 | SAM-M10Q-00B |[Link]() |
-| U8 | QFN50P500X500X90-33N | 1 | ESP32-C3FH4 |[Link]() |
-| Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ |[Link]() |
+| R46 | MSRSF3920P1L00D2P0 | 1 | 1mΩ |[Link](https://www.digikey.com/en/products/detail/susumu/MSRSF3920P-1L00-D2P0/24396792) |
+| R50 | 0805 | 1 | 32mΩ |[Link](https://www.digikey.com/en/products/detail/ohmite/MCS1632R025DER/22672428) |
+| S1 | SW_SKRPABE010 | 1 | SKRPABE010 |[Link](https://www.digikey.com/en/products/detail/alps-alpine/SKRPABE010/18768948) |
+| TH1 | PinHeader_1x02_P1.00mm_Vertical | 1 | 103AT2 |[Link](https://www.digikey.com/en/products/detail/semitec-usa-corp/103AT-2/16579059?s=N4IgTCBcDaIIwAYDMBBAKhAugXyA) |
+| U1 | UFQFPN-32_STM | 1 | STM32U385KGU6 |[Link](https://www.digikey.com/en/products/detail/stmicroelectronics/STM32U385KGU6/26092104) |
+| U10 | VQFN20_RGR_TEX | 1 | BQ76907RGRR |[Link](https://www.digikey.com/en/products/detail/texas-instruments/BQ76907RGRR/22077514) |
+| U11 | SOT-23-5 | 1 | MIC5504-1.8YM5 |[Link](https://www.digikey.com/en/products/detail/microchip-technology/MIC5504-1-8YM5-TR/5209404) |
+| U12, U13 | PSON50P145X100X60-6N | 2 | TPD4S012DRYR |[Link](https://www.digikey.com/en/products/detail/texas-instruments/TPD4S012DRYR/2037539) |
+| U14 | IC_MCP16362T-E_NMX | 1 | MCP16362T-E_NMX |[Link](https://www.digikey.com/en/products/detail/microchip-technology/MCP16362T-E-NMXVAO/14291783) |
+| U2 | QFN10_BMP581_BOS | 1 | BMP581 |[Link](https://www.digikey.com/en/products/detail/bosch-sensortec/BMP581/16036134) |
+| U3 | STS4X | 1 | STS4X |[Link](https://www.digikey.com/en/products/detail/sensirion-ag/STS40-AD1B-R3/16020549) |
+| U4 | XDCR_ENS210-LQFM | 1 | ENS210-LQFM |[Link](https://www.digikey.com/en/products/detail/sciosense/ENS210-LQFM/6490747) |
+| U5 | XDCR_ENS160-BGLT | 1 | ENS160-BGLT |[Link](https://www.digikey.com/en/products/detail/sciosense/ENS160-BGLT/16129831) |
+| U6 | QFN50P500X500X90-33N | 1 | LTC4162IUFD-FAD_PBF |[Link](https://www.digikey.com/en/products/detail/analog-devices-inc/LTC4162IUFD-FAD-PBF/9446112) |
+| U7 | XCVR_SAM-M10Q-00B | 1 | SAM-M10Q-00B |[Link](https://www.digikey.com/en/products/detail/u-blox/SAM-M10Q-00B/16672678) |
+| U8 | QFN50P500X500X90-33N | 1 | ESP32-C3FH4 |[Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3FH4/14115592) |
+| Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ |[Link](https://www.digikey.com/en/products/detail/ecs-inc/ECS-2520S33-400-FN-TR/6578428) |
 
 I would greatly recommend using a PCB stencil to make soldering components easier, as some of the components are quite small. Remember, in order for the battery functionality to work, JP1 and JP4 must be bridged.<br>
 <br>
