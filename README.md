@@ -96,8 +96,15 @@ To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.). 
 | U8 | QFN50P500X500X90-33N | 1 | ESP32-C3FH4 |[Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3FH4/14115592) |
 | Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ |[Link](https://www.digikey.com/en/products/detail/ecs-inc/ECS-2520S33-400-FN-TR/6578428) |
 
+Make sure you also purchase an antenna for the RF port; any SMA-Male antenna works. Here is a [link](https://www.digikey.com/en/products/detail/inventek-systems/W24-ASMA-M/4959494) for one.
 I would greatly recommend using a PCB stencil to make soldering components easier, as some of the components are quite small. Remember, in order for the battery functionality to work, JP1 and JP4 must be bridged.<br>
 <br>
+
+## |Weather Station Case|<br>
+I have CAD'd a 3d printable case for the Weather Station V1 PCB; it is made of two parts, a front plate and a container part.
+There are M.2 threaded insert holes on the container part, so you must purchase threaded inserts and M.2 screws.<br>
+<img width="1120" height="668" alt="Screenshot 2026-10-04 105106" src="https://github.com/user-attachments/assets/65039c6a-a299-488f-ba76-827cd18ce68f" />
+
 ## |Purpose Of Project |<br>
 The purpose of the Weather Station V1 was to enhance my understanding of RF applications and battery- and solar-powered devices. Throughout making this project, I understood RF design better and overall PCB design.
 I hope this knowledge will allow me to make better, more reliable, and cooler projects in the future. 
