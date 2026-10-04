@@ -1,3 +1,4 @@
+<img width="832" height="405" alt="Screenshot 2026-10-04 105047" src="https://github.com/user-attachments/assets/c663f2ea-f606-455e-b266-e295df0e217f" />
 # Weather-Station-V1
 The Weather Station V1 is a Solar- and Battery-powered Weather Station that measures humidity, pressure, temperature, and air quality, and sends all data over Wi-Fi for a client to receive or records it to an SD card.
 <img width="1040" height="592" alt="image" src="https://github.com/user-attachments/assets/2a213a2a-b792-4a79-85fb-dfae104ab104" /><img width="1920" height="770" alt="Weather_Station_2026-Oct-04_05-36-57PM-000_CustomizedView7621450915" src="https://github.com/user-attachments/assets/c5096f0b-b009-4568-a75b-22b58ee04d3d" />
@@ -103,8 +104,7 @@ I would greatly recommend using a PCB stencil to make soldering components easie
 ## |Weather Station Case|<br>
 I have CAD'd a 3d printable case for the Weather Station V1 PCB; it is made of two parts, a front plate and a container part.
 There are M.2 threaded insert holes on the container part, so you must purchase threaded inserts and M.2 screws.<br>
-<img width="1120" height="668" alt="Screenshot 2026-10-04 105106" src="https://github.com/user-attachments/assets/65039c6a-a299-488f-ba76-827cd18ce68f" />
-
+<img width="1120" height="668" alt="Screenshot 2026-10-04 105106" src="https://github.com/user-attachments/assets/65039c6a-a299-488f-ba76-827cd18ce68f" /><img width="832" height="405" alt="Screenshot 2026-10-04 105047" src="https://github.com/user-attachments/assets/d69fea32-58f8-403d-b148-82831d794b71" />
 ## |Purpose Of Project |<br>
 The purpose of the Weather Station V1 was to enhance my understanding of RF applications and battery- and solar-powered devices. Throughout making this project, I understood RF design better and overall PCB design.
 I hope this knowledge will allow me to make better, more reliable, and cooler projects in the future. 
