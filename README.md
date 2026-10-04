@@ -102,9 +102,15 @@ I would greatly recommend using a PCB stencil to make soldering components easie
 <br>
 
 ## |Weather Station Case|<br>
-I have CAD'd a 3d printable case for the Weather Station V1 PCB; it is made of two parts, a front plate and a container part.
+I CAD'd a 3D-printable case for the Weather Station V1 PCB; it has two parts: a front plate and a container part.
 There are M.2 threaded insert holes on the container part, so you must purchase threaded inserts and M.2 screws.<br>
-<img width="1120" height="668" alt="Screenshot 2026-10-04 105106" src="https://github.com/user-attachments/assets/65039c6a-a299-488f-ba76-827cd18ce68f" /><img width="832" height="405" alt="Screenshot 2026-10-04 105047" src="https://github.com/user-attachments/assets/d69fea32-58f8-403d-b148-82831d794b71" />
+<img width="1120" height="668" alt="Screenshot 2026-10-04 105106" src="https://github.com/user-attachments/assets/65039c6a-a299-488f-ba76-827cd18ce68f" /><img width="832" height="405" alt="Screenshot 2026-10-04 105047" src="https://github.com/user-attachments/assets/d69fea32-58f8-403d-b148-82831d794b71" /><br>
+
+
+## |Firmware|<br>
+So far, I have only added main.cpp, which should be placed in an STM32CubeIDE project.  No code has been written into it yet because I do not have the board to program yet. 
+
+
 ## |Purpose Of Project |<br>
 The purpose of the Weather Station V1 was to enhance my understanding of RF applications and battery- and solar-powered devices. Throughout making this project, I understood RF design better and overall PCB design.
 I hope this knowledge will allow me to make better, more reliable, and cooler projects in the future. 
