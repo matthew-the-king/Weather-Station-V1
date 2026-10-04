@@ -1,4 +1,4 @@
-<img width="832" height="405" alt="Screenshot 2026-10-04 105047" src="https://github.com/user-attachments/assets/c663f2ea-f606-455e-b266-e295df0e217f" />
+
 # Weather-Station-V1
 The Weather Station V1 is a Solar- and Battery-powered Weather Station that measures humidity, pressure, temperature, and air quality, and sends all data over Wi-Fi for a client to receive or records it to an SD card.
 <img width="1040" height="592" alt="image" src="https://github.com/user-attachments/assets/2a213a2a-b792-4a79-85fb-dfae104ab104" /><img width="1920" height="770" alt="Weather_Station_2026-Oct-04_05-36-57PM-000_CustomizedView7621450915" src="https://github.com/user-attachments/assets/c5096f0b-b009-4568-a75b-22b58ee04d3d" />
