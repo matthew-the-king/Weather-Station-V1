@@ -29,8 +29,8 @@ board that allow for ESP32 UART programming and STM32 serial wire debug and prog
 To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.).  The Bill of Materials is listed here:<br>
 * If Digi-Key does not have the part stocked, check other vendors like Mouser. < br>
 
-| Designator | Footprint | Qty | Value / Part | Part Link | Price |
-|---|---|---:|---|---|---|
+| Designator | Footprint | Qty | Value / Part | Part Link |
+|---|---|---:|---|---|
 | BT5 | BAT_BK-18650-PC8 | 1 | BK-18650-PC8 | [Link](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/BK-18650-PC8/2330515)|
 | C1 | 0603 | 1 | 330nF | [Link](https://www.digikey.com/en/products/detail/tdk/CGA3E3X7R1H334K080AB/4931465)|
 | C10, C27, C3, C38, C39, C4, C40, C41, C45, C46, C5, C50, C51, C52, C53, C54, C6, C62, C63, C64, C9 | 0402 | 21 | 0.1uF |[Link](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701?s=N4IgTCBcDaIMIBkAMBWAggRiQFgNJpQDli4QBdAXyA) |
