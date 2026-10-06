@@ -27,8 +27,10 @@ board that allow for ESP32 UART programming and STM32 serial wire debug and prog
 <img width="187" height="107" alt="image" src="https://github.com/user-attachments/assets/8a38d112-d87d-40e5-bf3b-fb82a8bf159f" /><br>
 ## |PRODUCTION|<br>
 To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.).  The Bill of Materials is listed here:<br>
-| Designator | Footprint | Qty | Value / Part | Part Link |
-|---|---|---:|---|---|
+* If Digi-Key does not have the part stocked, check other vendors like Mouser. < br>
+
+| Designator | Footprint | Qty | Value / Part | Part Link | Price |
+|---|---|---:|---|---|---|
 | BT5 | BAT_BK-18650-PC8 | 1 | BK-18650-PC8 | [Link](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/BK-18650-PC8/2330515)|
 | C1 | 0603 | 1 | 330nF | [Link](https://www.digikey.com/en/products/detail/tdk/CGA3E3X7R1H334K080AB/4931465)|
 | C10, C27, C3, C38, C39, C4, C40, C41, C45, C46, C5, C50, C51, C52, C53, C54, C6, C62, C63, C64, C9 | 0402 | 21 | 0.1uF |[Link](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701?s=N4IgTCBcDaIMIBkAMBWAggRiQFgNJpQDli4QBdAXyA) |
@@ -97,7 +99,8 @@ To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.). 
 | U8 | QFN50P500X500X90-33N | 1 | ESP32-C3FH4 |[Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3FH4/14115592) |
 | Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ |[Link](https://www.digikey.com/en/products/detail/ecs-inc/ECS-2520S33-400-FN-TR/6578428) |
 
-Make sure you also purchase an antenna for the RF port; any SMA-Male antenna works. Here is a [link](https://www.digikey.com/en/products/detail/inventek-systems/W24-ASMA-M/4959494) for one.
+Make sure you also purchase an antenna for the RF port; any SMA-Male antenna works. Here is a [link](https://www.digikey.com/en/products/detail/inventek-systems/W24-ASMA-M/4959494) for one.<br>
+The total cost of all the components is $167.97 dollars as of right now; when I add the PI filter stuff, it will only go up a dollar max.<br>
 I would greatly recommend using a PCB stencil to make soldering components easier, as some of the components are quite small. Remember, in order for the battery functionality to work, JP1 and JP4 must be bridged.<br>
 <br>
 
