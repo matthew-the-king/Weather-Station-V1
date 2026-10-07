@@ -12,10 +12,11 @@ The Weather Station V1 uses multiple sensors to collect data; here is the list:<
 To view the data the Weather Station V1 collects, the PCB has an SD card slot that records data over long periods and an ESP32-C3 that can send data over WiFi.<br>
 <img width="283" height="254" alt="image" src="https://github.com/user-attachments/assets/eb9d54af-3096-42ad-96b8-0720b0d4d727" />
 <img width="209" height="257" alt="image" src="https://github.com/user-attachments/assets/78601759-6eac-4327-90fd-bdbc29bcbc01" /><br>
-The Weather Station V1 can be powered with a solar panel. To hook up the solar panel, connect the power wires with the correct polarity to the blue screw-in terminal.<br>
+The Weather Station V1 can be powered with a solar panel. To hook up the solar panel, connect the power wires with the correct polarity to the blue screw-in terminal. Here is the [link](https://www.amazon.com/ECO-WORTHY-Monocrystalline-Waterproof-Charging-Applications/dp/B01IFJ73X4/ref=sr_1_4?crid=3QHAHQSNMHFSL&dib=eyJ2IjoiMSJ9.NCFwgk3sAcXWyB454Pk5SPNcQemk34eTFudncpU4z0kJxmG-NXfIaFsG7l4m57yuxXUE0gBqu5lgGJoBbALUTFjF2K6-mGWYJWMwcwzsFfhhP3rzPJ4SUP1idMQb-H-VBpm4El9aRgOr08ZAze0ncVoFDJLv6Px1nW_MmPlfGzO2yde_wccv_r7rToX8MT91kRBLzjtbjo7iDcouW79qZ-3ntSCusWl1HjOpdd0R_DA.tXCmzJyMkYVnmj8B4maCWZT6sQgtKzylotzIh5rUZ2Y&dib_tag=se&keywords=solar%2Bpanels&qid=1789531833&refinements=p_36%3A-3800&rnid=2661611011&sprefix=solar%2Bpanels%2Caps%2C245&sr=8-4&th=1), it cost around $29(As of october 10, 2026) to the Solar panel I am using; any Solar panel that can supply over 2 amps and more than 20 volts will work.<br>
 <img width="429" height="325" alt="image" src="https://github.com/user-attachments/assets/50c366fd-2385-418f-9957-bec3741ddaac" /><br>
+<img width="1920" height="770" alt="Weather_Station_2026-Oct-07_04-39-36AM-000_CustomizedView14020761017" src="https://github.com/user-attachments/assets/f215b65a-0193-4e4c-848d-809be4283374" /><br>
 The Weather Station V1 features an LTC4162, which is a LiFePO4 battery step-down charger with a Power path. To set up the cell count properly, JP1 and JP4 must be bridged. 
-The PCB contains a port for the thermistor to be soldered in for battery protection.
+The PCB includes a port for soldering a thermistor for battery protection.
 <img width="437" height="469" alt="image" src="https://github.com/user-attachments/assets/c4ce8645-595f-4935-8fe0-783333786ec8" />
 The current configuration of the PCB requires 4 LiFePO4 batteries(https://www.digikey.com/en/products/detail/zeus-battery-products/PCIFR18650-1500/9828824)
 The PCB has THT 18650 Battery holder footprint on the bottom side of the board, allowing for quick and easy connection of batteries to the PCB.<br>
