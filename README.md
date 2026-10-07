@@ -27,77 +27,76 @@ board that allow for ESP32 UART programming and STM32 serial wire debug and prog
 <img width="187" height="107" alt="image" src="https://github.com/user-attachments/assets/8a38d112-d87d-40e5-bf3b-fb82a8bf159f" /><br>
 ## |PRODUCTION|<br>
 To produce the PCB, use your preferred PCB manufacturer (PCBway, JLCPCB, etc.).  The Bill of Materials is listed here:<br>
-* If Digi-Key does not have the part stocked, check other vendors like Mouser. < br>
-
-| Designator | Footprint | Qty | Value / Part | Part Link |
-|---|---|---:|---|---|
-| BT5 | BAT_BK-18650-PC8 | 1 | BK-18650-PC8 | [Link](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/BK-18650-PC8/2330515)|
-| C1 | 0603 | 1 | 330nF | [Link](https://www.digikey.com/en/products/detail/tdk/CGA3E3X7R1H334K080AB/4931465)|
-| C10, C27, C3, C38, C39, C4, C40, C41, C45, C46, C5, C50, C51, C52, C53, C54, C6, C62, C63, C64, C9 | 0402 | 21 | 0.1uF |[Link](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701?s=N4IgTCBcDaIMIBkAMBWAggRiQFgNJpQDli4QBdAXyA) |
-| C11, C37, C44, C57, C65 | 0402 | 5 | 10uF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J106ME15D/5877401) |
-| C12, C13, C16, C42, C43, C61, C66 | 0402 | 7 | 1uF |[Link](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KO5NNNC/3886725) |
-| C14 | 0402 | 1 | 22nF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H223KA12D/965898) |
-| C15, C18, C2, C24, C26, C7 | 1210 | 6 | 10uF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GCJ32EC71H106KA01K/9867929) |
-| C17, C22, C23, C29, C60, C67, C68, C69 | 0603 | 8 | 0.1uF |[Link](https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594)|
-| C25, C28 | CAP_EEH-ZA1V151P_PAN | 2 | 150uF |[Link](https://www.digikey.com/en/products/detail/panasonic-industry/EEH-ZA1V151P/3088122) |
-| C34, C35, C36 | 0805 | 3 | 220nF |[Link](https://www.digikey.com/en/products/detail/kemet/C0805C224K5RACTU/754753) |
-| C47, C48 | 0201 | 2 | C |Will Post link when Done with testing|
-| C49 | 0603 | 1 | 4.7uF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465) |
-| C55, C8 | 0603 | 2 | 22uF |[Link](https://www.digikey.com/en/products/detail/holy-stone-enterprise-co-ltd/C0603B226M010T/16895513) |
-| C56 | WCAP-PSHP_8X8.7_DXL_ | 1 | 470uF |[Link](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875115252003/5147615) |
-| C58 | 0402 | 1 | 470pF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H471JA01D/587210) |
-| C59 | 0402 | 1 | 100pF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829) |
-| D1, D5, D6 | D_SOD-123F | 3 | 40V |[Link](https://www.digikey.com/en/products/detail/smc-diode-solutions/DSS14U/8341859) |
-| D2 | D_SMA | 1 | D |[Link](https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SK310A-LTP/2642015) |
-| D3 | D_SOD-123 | 1 | Zener 16V |[Link](https://www.digikey.com/en/products/detail/diodes-incorporated/DDZ9703-7/5218356) |
-| D4 | D_SMA | 1 | 100V |[Link](https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SK310A-LTP/2642015) |
-| ESP32_USB1, STM32_USB1 | SAMESKY_UJ20-C-H-G-SMT-P16-TR | 2 | UJ20-C-H-G-SMT-1-P16-TR |[Link](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-P16-TR/24818595) |
-| FB1, FB2 | 0603 | 2 | 120R |[Link](https://www.digikey.com/en/products/detail/pulse-electronics/PE-0603PFB121ST/5050544) |
-| J1 | GCT_MEM2075-00-140-01-A | 1 | MEM2075-00-140-01-A |[Link](https://www.digikey.com/en/products/detail/gct/MEM2075-00-140-01-A/9859614) |
-| J2 | TE_CONREVSMA002 | 1 | CONREVSMA002 |[Link](https://www.digikey.com/en/products/detail/te-connectivity-linx/CONREVSMA002/340145) |
+* If Digi-Key does not have the part stocked, check other vendors like Mouser. <br>
+*Prices as of October 10, 2026<br>
+| Designator | Footprint | Qty | Value / Part | Part Link |Price|
+|---|---|---:|---|---|---|
+| BT5 | BAT_BK-18650-PC8 | 1 | BK-18650-PC8 | [Link](https://www.digikey.com/en/products/detail/mpd-memory-protection-devices/BK-18650-PC8/2330515)|$6.22|
+| C1 | 0603 | 1 | 330nF | [Link](https://www.digikey.com/en/products/detail/tdk/CGA3E3X7R1H334K080AB/4931465)|$0.26|
+| C10, C27, C3, C38, C39, C4, C40, C41, C45, C46, C5, C50, C51, C52, C53, C54, C6, C62, C63, C64, C9 | 0402 | 21 | 0.1uF |[Link](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A104KA5NNNC/3886701?s=N4IgTCBcDaIMIBkAMBWAggRiQFgNJpQDli4QBdAXyA) | $0.38|
+| C11, C37, C44, C57, C65 | 0402 | 5 | 10uF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J106ME15D/5877401) |$0.85|
+| C12, C13, C16, C42, C43, C61, C66 | 0402 | 7 | 1uF |[Link](https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KO5NNNC/3886725) |$0.70|
+| C14 | 0402 | 1 | 22nF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71H223KA12D/965898) |$0.11|
+| C15, C18, C2, C24, C26, C7 | 1210 | 6 | 10uF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GCJ32EC71H106KA01K/9867929) |$7.08|
+| C17, C22, C23, C29, C60, C67, C68, C69 | 0603 | 8 | 0.1uF |[Link](https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594)|$1.12|
+| C25, C28 | CAP_EEH-ZA1V151P_PAN | 2 | 150uF |[Link](https://www.digikey.com/en/products/detail/panasonic-industry/EEH-ZA1V151P/3088122) |$3.52|
+| C34, C35, C36 | 0805 | 3 | 220nF |[Link](https://www.digikey.com/en/products/detail/kemet/C0805C224K5RACTU/754753) |$0.93|
+| C47, C48 | 0201 | 2 | C |Will Post link when Done with testing||
+| C49 | 0603 | 1 | 4.7uF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E475KE11D/3900465) |$0.24|
+| C55, C8 | 0603 | 2 | 22uF |[Link](https://www.digikey.com/en/products/detail/holy-stone-enterprise-co-ltd/C0603B226M010T/16895513) |$0.68|
+| C56 | WCAP-PSHP_8X8.7_DXL_ | 1 | 470uF |[Link](https://www.digikey.com/en/products/detail/w%C3%BCrth-elektronik/875115252003/5147615) |$1.32|
+| C58 | 0402 | 1 | 470pF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H471JA01D/587210) |$0.10|
+| C59 | 0402 | 1 | 100pF |[Link](https://www.digikey.com/en/products/detail/murata-electronics/GRM1555C1H101JA01D/3693829) |$0.11|
+| D1, D5, D6 | D_SOD-123F | 3 | 40V |[Link](https://www.digikey.com/en/products/detail/smc-diode-solutions/DSS14U/8341859) |$0.63|
+| D2 | D_SMA | 1 | D |[Link](https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SK310A-LTP/2642015) |$0.52|
+| D3 | D_SOD-123 | 1 | Zener 16V |[Link](https://www.digikey.com/en/products/detail/diodes-incorporated/DDZ9703-7/5218356) |$0.36|
+| D4 | D_SMA | 1 | 100V |[Link](https://www.digikey.com/en/products/detail/mcc-micro-commercial-components/SK310A-LTP/2642015) |$0.52|
+| ESP32_USB1, STM32_USB1 | SAMESKY_UJ20-C-H-G-SMT-P16-TR | 2 | UJ20-C-H-G-SMT-1-P16-TR |[Link](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/UJ20-C-H-G-SMT-P16-TR/24818595) |$1.30|
+| FB1, FB2 | 0603 | 2 | 120R |[Link](https://www.digikey.com/en/products/detail/pulse-electronics/PE-0603PFB121ST/5050544) |$0.20|
+| J1 | GCT_MEM2075-00-140-01-A | 1 | MEM2075-00-140-01-A |[Link](https://www.digikey.com/en/products/detail/gct/MEM2075-00-140-01-A/9859614) |$1.92|
+| J2 | TE_CONREVSMA002 | 1 | CONREVSMA002 |[Link](https://www.digikey.com/en/products/detail/te-connectivity-linx/CONREVSMA002/340145) |$2.78|
 | J3 | PinHeader_1x05_P2.54mm_Vertical | 1 | Conn_01x05_Pin |2.54mm Male Header Pins|
 | J4 | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_01x04_Pin |2.54mm Male Header Pins|
-| J5 | OST_OSTTC020162 | 1 | Solar Panel |[Link](https://www.amazon.com/dp/B01IFJ73X4?lv=shuf&rnid=2661611011&crid=3QHAHQSNMHFSL&keywords=solar%2Bpanels&sprefix=solar%2Bpanels%2Caps%2C245&th=1&dib_tag=se&dib=eyJ2IjoiMSJ9.NCFwgk3sAcXWyB454Pk5SPNcQemk34eTFudncpU4z0kJxmG-NXfIaFsG7l4m57yuxXUE0gBqu5lgGJoBbALUTFjF2K6-mGWYJWMwcwzsFfhhP3rzPJ4SUP1idMQb-H-VBpm4El9aRgOr08ZAze0ncVoFDJLv6Px1nW_MmPlfGzO2yde_wccv_r7rToX8MT91kRBLzjtbjo7iDcouW79qZ-3ntSCusWl1HjOpdd0R_DA.tXCmzJyMkYVnmj8B4maCWZT6sQgtKzylotzIh5rUZ2Y&qid=1789531833&refinements=p_36%3A-3800&sr=8-4&channelId=500&ref_=sr_1_4&plpRedirect=mhFallback) |
-| JP1, JP2, JP3, JP4, JP5, JP6, JP7 | SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm | 7 | Jumper_2_Open ||
+| J5 | OST_OSTTC020162 | 1 | Solar Panel |[Link](https://www.digikey.com/en/products/detail/on-shore-technology-inc/OSTTC020162/614549?s=N4IgTCBcDaIPIGUAqSDCAGM6CMA2CAugL5A) | $0.62|
 | JP8, JP9 | PinSocket_1x02_P2.54mm_Vertical | 2 | Jumper_2_Open |2.54mm Male Header Pins|
-| L1 | IND_PA4342.402NLT | 1 | 4uH |[Link](https://www.digikey.com/en/products/detail/pulse-electronics/PA4342-402NLT/5641799) |
-| L2 | 0201 | 1 | L |Will Post link when Done with testing|
-| L3 | 1008 | 1 | 1.5uH |[Link](https://www.digikey.com/en/products/detail/murata-electronics/DFE252012P-1R5M-P2/5247259) |
-| Q10, Q9 | NPNBEC_SOT-23_OSI | 2 | BSR14 |[Link](https://www.digikey.com/en/products/detail/onsemi/BSR14/965251) |
-| Q11, Q14 | WDFN8_511DR_OSI-L | 2 | FDMC8327L |[Link](https://www.digikey.com/en/products/detail/onsemi/FDMC8327L/4314821?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart) |
-| Q3, Q4, Q5, Q6 | TDSON-8-1 | 4 | CSD18534Q5A |[Link](https://www.digikey.com/en/products/detail/texas-instruments/CSD18534Q5A/3830016) |
-| R1 | 1206 | 1 | 16mΩ |[Link](https://www.digikey.com/en/products/detail/littelfuse-inc/L4CL1206LR016DNR/18795436) |
-| R10, R11 | 2512 | 2 | 10MΩ |[Link](https://www.digikey.com/en/products/detail/bourns-inc/CHV2512-JW-106ELF/5175992) |
-| R12, R13, R8, R9 | 0603 | 4 | 330Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162) |
-| R14 | 0603 | 1 | 63.4k |[Link](https://www.digikey.com/en/products/detail/yageo/RT0603BRD0763K4L/1072610) |
-| R15, R16 | 0402 | 2 | 10k |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A) |
-| R2, R3, R39, R40 | 0402 | 4 | 4.7kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-074K7L/726477) |
-| R20, R25 | 0603 | 2 | 300Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07300RL/724356) |
-| R21, R22 | 2512 | 2 | 80.6Ω |[Link](https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H3ATTE80R6F/10423948) |
-| R23, R24, R26, R47, R48, R51, R52, R7 | 2010 | 8 | 100Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RT2010FKE07100RL/5945596) |
-| R27, R28, R29, R30 | 0402 | 4 | 5.1kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K1L/726624?s=N4IgTCBcDaIEoGEAMAWJYBicC0SDsArANICMAMiALoC%2BQA) |
-| R31, R32, R33, R34, R37, R38, R43, R45, R49 | 0402 | 9 | 10kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A) |
-| R35, R36 | 0402 | 2 | 22Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-0722RL/726562) |
-| R41 | 0402 | 1 | 100k |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526) |
-| R42 | 0402 | 1 | 31.6kΩ |[Link](https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB3162X/2026187) |
-| R44, R53 | 0402 | 2 | 100kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526) |
-| R46 | MSRSF3920P1L00D2P0 | 1 | 1mΩ |[Link](https://www.digikey.com/en/products/detail/susumu/MSRSF3920P-1L00-D2P0/24396792) |
-| R50 | 0805 | 1 | 32mΩ |[Link](https://www.digikey.com/en/products/detail/ohmite/MCS1632R025DER/22672428) |
-| S1 | SW_SKRPABE010 | 1 | SKRPABE010 |[Link](https://www.digikey.com/en/products/detail/alps-alpine/SKRPABE010/18768948) |
-| TH1 | PinHeader_1x02_P1.00mm_Vertical | 1 | 103AT2 |[Link](https://www.digikey.com/en/products/detail/semitec-usa-corp/103AT-2/16579059?s=N4IgTCBcDaIIwAYDMBBAKhAugXyA) |
-| U1 | UFQFPN-32_STM | 1 | STM32U385KGU6 |[Link](https://www.digikey.com/en/products/detail/stmicroelectronics/STM32U385KGU6/26092104) |
-| U10 | VQFN20_RGR_TEX | 1 | BQ76907RGRR |[Link](https://www.digikey.com/en/products/detail/texas-instruments/BQ76907RGRR/22077514) |
-| U11 | SOT-23-5 | 1 | MIC5504-1.8YM5 |[Link](https://www.digikey.com/en/products/detail/microchip-technology/MIC5504-1-8YM5-TR/5209404) |
-| U12, U13 | PSON50P145X100X60-6N | 2 | TPD4S012DRYR |[Link](https://www.digikey.com/en/products/detail/texas-instruments/TPD4S012DRYR/2037539) |
-| U14 | IC_MCP16362T-E_NMX | 1 | MCP16362T-E_NMX |[Link](https://www.digikey.com/en/products/detail/microchip-technology/MCP16362T-E-NMXVAO/14291783) |
-| U2 | QFN10_BMP581_BOS | 1 | BMP581 |[Link](https://www.digikey.com/en/products/detail/bosch-sensortec/BMP581/16036134) |
-| U3 | STS4X | 1 | STS4X |[Link](https://www.digikey.com/en/products/detail/sensirion-ag/STS40-AD1B-R3/16020549) |
-| U4 | XDCR_ENS210-LQFM | 1 | ENS210-LQFM |[Link](https://www.digikey.com/en/products/detail/sciosense/ENS210-LQFM/6490747) |
-| U5 | XDCR_ENS160-BGLT | 1 | ENS160-BGLT |[Link](https://www.digikey.com/en/products/detail/sciosense/ENS160-BGLT/16129831) |
-| U6 | QFN50P500X500X90-33N | 1 | LTC4162IUFD-FAD_PBF |[Link](https://www.digikey.com/en/products/detail/analog-devices-inc/LTC4162IUFD-FAD-PBF/9446112) |
-| U7 | XCVR_SAM-M10Q-00B | 1 | SAM-M10Q-00B |[Link](https://www.digikey.com/en/products/detail/u-blox/SAM-M10Q-00B/16672678) |
-| U8 | QFN50P500X500X90-33N | 1 | ESP32-C3FH4 |[Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3FH4/14115592) |
-| Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ |[Link](https://www.digikey.com/en/products/detail/ecs-inc/ECS-2520S33-400-FN-TR/6578428) |
+| L1 | IND_PA4342.402NLT | 1 | 4uH |[Link](https://www.digikey.com/en/products/detail/pulse-electronics/PA4342-402NLT/5641799) |$1.16|
+| L2 | 0201 | 1 | L |Will Post link when Done with testing||
+| L3 | 1008 | 1 | 1.5uH |[Link](https://www.digikey.com/en/products/detail/murata-electronics/DFE252012P-1R5M-P2/5247259) |$0.22|
+| Q10, Q9 | NPNBEC_SOT-23_OSI | 2 | BSR14 |[Link](https://www.digikey.com/en/products/detail/onsemi/BSR14/965251) |$0.96|
+| Q11, Q14 | WDFN8_511DR_OSI-L | 2 | FDMC8327L |[Link](https://www.digikey.com/en/products/detail/onsemi/FDMC8327L/4314821?curr=usd&utm_campaign=buynow&utm_medium=aggregator&utm_source=octopart) |$3.00|
+| Q3, Q4, Q5, Q6 | TDSON-8-1 | 4 | CSD18534Q5A |[Link](https://www.digikey.com/en/products/detail/texas-instruments/CSD18534Q5A/3830016) |$6.84|
+| R1 | 1206 | 1 | 16mΩ |[Link](https://www.digikey.com/en/products/detail/littelfuse-inc/L4CL1206LR016DNR/18795436) |$1.31|
+| R10, R11 | 2512 | 2 | 10MΩ |[Link](https://www.digikey.com/en/products/detail/bourns-inc/CHV2512-JW-106ELF/5175992) |$1.02|
+| R12, R13, R8, R9 | 0603 | 4 | 330Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07330RL/727162) |$0.40|
+| R14 | 0603 | 1 | 63.4k |[Link](https://www.digikey.com/en/products/detail/yageo/RT0603BRD0763K4L/1072610) |$0.10|
+| R15, R16 | 0402 | 2 | 10k |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A) |$0.11|
+| R2, R3, R39, R40 | 0402 | 4 | 4.7kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-074K7L/726477) |$0.44|
+| R20, R25 | 0603 | 2 | 300Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0603FR-07300RL/724356) |$0.20|
+| R21, R22 | 2512 | 2 | 80.6Ω |[Link](https://www.digikey.com/en/products/detail/koa-speer-electronics-inc/RK73H3ATTE80R6F/10423948) |$0.62|
+| R23, R24, R26, R47, R48, R51, R52, R7 | 2010 | 8 | 100Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RT2010FKE07100RL/5945596) |$1.28|
+| R27, R28, R29, R30 | 0402 | 4 | 5.1kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-075K1L/726624?s=N4IgTCBcDaIEoGEAMAWJYBicC0SDsArANICMAMiALoC%2BQA) |$0.40|
+| R31, R32, R33, R34, R37, R38, R43, R45, R49 | 0402 | 9 | 10kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402JR-0710KL/726418?s=N4IgTCBcDaIEoGEAMAWJYBScC0SDsAjEgNIAyIAugL5A) |$0.99|
+| R35, R36 | 0402 | 2 | 22Ω |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-0722RL/726562) |$0.22|
+| R41 | 0402 | 1 | 100k |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526) |$0.10|
+| R42 | 0402 | 1 | 31.6kΩ |[Link](https://www.digikey.com/en/products/detail/panasonic-industry/ERA-2AEB3162X/2026187) |$0.11|
+| R44, R53 | 0402 | 2 | 100kΩ |[Link](https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526) |$0.10|
+| R46 | MSRSF3920P1L00D2P0 | 1 | 1mΩ |[Link](https://www.digikey.com/en/products/detail/susumu/MSRSF3920P-1L00-D2P0/24396792) |$1.74|
+| R50 | 0805 | 1 | 32mΩ |[Link](https://www.digikey.com/en/products/detail/vishay-dale/WSLP0805R0320FEA/9755276) |$1.29|
+| S1 | SW_SKRPABE010 | 1 | SKRPABE010 |[Link](https://www.digikey.com/en/products/detail/alps-alpine/SKRPABE010/18768948) |$0.22|
+| TH1 | PinHeader_1x02_P1.00mm_Vertical | 1 | 103AT2 |[Link](https://www.digikey.com/en/products/detail/semitec-usa-corp/103AT-2/16579059?s=N4IgTCBcDaIIwAYDMBBAKhAugXyA) |$0.68|
+| U1 | UFQFPN-32_STM | 1 | STM32U385KGU6 |[Link](https://www.digikey.com/en/products/detail/stmicroelectronics/STM32U385KGU6/26092104) |$7.31|
+| U10 | VQFN20_RGR_TEX | 1 | BQ76907RGRR |[Link](https://www.digikey.com/en/products/detail/texas-instruments/BQ76907RGRR/22077514) |$2.01|
+| U11 | SOT-23-5 | 1 | MIC5504-1.8YM5 |[Link](https://www.digikey.com/en/products/detail/microchip-technology/MIC5504-1-8YM5-TR/5209404) |$0.16|
+| U12, U13 | PSON50P145X100X60-6N | 2 | TPD4S012DRYR |[Link](https://www.digikey.com/en/products/detail/texas-instruments/TPD4S012DRYR/2037539) |$2.38|
+| U14 | IC_MCP16362T-E_NMX | 1 | MCP16362T-E_NMX |[Link](https://www.digikey.com/en/products/detail/microchip-technology/MCP16362T-E-NMXVAO/14291783) |$2.33|
+| U2 | QFN10_BMP581_BOS | 1 | BMP581 |[Link](https://www.digikey.com/en/products/detail/bosch-sensortec/BMP581/16036134) |$3.35|
+| U3 | STS4X | 1 | STS4X |[Link](https://www.digikey.com/en/products/detail/sensirion-ag/STS40-AD1B-R3/16020549) |$0.72|
+| U4 | XDCR_ENS210-LQFM | 1 | ENS210-LQFM |[Link](https://www.digikey.com/en/products/detail/sciosense/ENS210-LQFM/6490747) |$1.62|
+| U5 | XDCR_ENS160-BGLT | 1 | ENS160-BGLT |[Link](https://www.digikey.com/en/products/detail/sciosense/ENS160-BGLT/16129831) |$5.72|
+| U6 | QFN50P500X500X90-33N | 1 | LTC4162IUFD-FAD_PBF |[Link](https://www.digikey.com/en/products/detail/analog-devices-inc/LTC4162IUFD-FAD-PBF/9446112) |$9.96|
+| U7 | XCVR_SAM-M10Q-00B | 1 | SAM-M10Q-00B |[Link](https://www.digikey.com/en/products/detail/u-blox/SAM-M10Q-00B/16672678) |$13.75|
+| U8 | QFN50P500X500X90-33N | 1 | ESP32-C3FH4 |[Link](https://www.digikey.com/en/products/detail/espressif-systems/ESP32-C3FH4/14115592) |$2.50|
+| Y3 | OSC_ECS-2520S33-400-FN-TR | 1 | 40MHZ |[Link](https://www.digikey.com/en/products/detail/ecs-inc/ECS-2520S33-400-FN-TR/6578428) |$2.25|
 
 Make sure you also purchase an antenna for the RF port; any SMA-Male antenna works. Here is a [link](https://www.digikey.com/en/products/detail/inventek-systems/W24-ASMA-M/4959494) for one.<br>
 The total cost of all the components is $167.97 dollars as of right now; when I add the PI filter stuff, it will only go up a dollar max.<br>
